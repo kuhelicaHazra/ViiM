@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Map_updated</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="leaflet/leaflet.js"></script>
+
+    <!-- popup adjust -->
+    <script src="leaflet/leaflet.rrose-src.js"></script>
+    <link rel="stylesheet" href="leaflet/leaflet.rrose.css" />
+
+
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="leafletStyles.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="leaflet/leaflet-search.css" rel="stylesheet" />
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="leaflet/leaflet-search.src.js"></script>
+    <script src="scripts/markers.js"></script>
+    <script src="scripts/all_icons.js"></script>
+    <!-- DatePicker Javascript and CSS-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+
+    <style>
+        #areainfobutton {
+            width: 240px;
+        }
+
+        .leaflet-rrose-content{
+            width: 125px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark blacktransparent" style="margin-bottom: 0px;">
+        <div class="navbar-brand h2 textFont"><img src="assets/LogoViim.png" /></div>
+        <!-- Navbar brand -->
+
+        <ul class="navbar-nav  ml-auto">
+            <button class="btn btn-success" id="image-btn" type="button" data-toggle="modal" data-target="#imageList">List of Images</button>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search by Amenities</a>
+                <div class="dropdown-menu force-scroll" id="searchByAmenities"></div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search by Facilities</a>
+                <div class="dropdown-menu force-scroll" id="searchByFacilities"></div>
+            </li>
+        </ul>
+    </nav>
+    <!-- image List Modal Start -->
+    <div class="modal fade" id="imageList" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">List of Maps</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeImageList">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="imageList-div"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info btn-block" data-dismiss="modal" id="closeImageListBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- image list modal end -->
+
+    <!-- imageMapModal start -->
+    <div class="modal fade" id="imageMapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-lg modal-dialog modal-full-height" style="max-width:800px !important;" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imagelistname"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeImageList">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="imageMap"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- imageMapModal end -->
+
+
+    <!-- modal from navbar dropdown start-->
+    <div class="modal fade" id="dropdownModal" tabindex="-1" role="dialog" aria-labelledby="modalDropdown" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><b><span id="filterdatatitle"></span></b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="filterclosecross">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul id="filteritems"></ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info btn-block" data-dismiss="modal" id="filterclose">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal from navbar dropdown end-->
+
+    <!-- map render-->
+    <div id="map" style="width: 100%; height: 75.2%; top: 0px; bottom:0px;"></div>
+
+    <!-- Resort Area Map render start for club Barbados-->
+    <div id="imageModal123" class="modal fade right" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-lg modal-dialog modal-full-height modal-right" style="max-width:800px !important;" role="document">
+            <div class="modal-content">
+                <div class="modal-header p-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-1"><b>
+                                    <h5 class="modal-title w-100  modal-title-font pl-2 pr-2 pb-0" id="resortareamap123">
+                                    </h5>
+                                </b></div>
+                            <div class="col-md-3 col-sm-10">
+                                <a id="areainfobutton" href="#areaInfoModal" data-target="#areaInfoModal" data-toggle="modal" class="btn btn-primary btn-info btn-width">View Property Details
+                                    <i class="fas fa-home"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeImageModal123">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="resort-map-image">
+                    <!-- Resort Area Map render stop -->
+                    <div id="confirmSuccess123" class="alert alert-success" role="alert">
+                        <button type="button" class="close closeAlert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> </button>
+                        <span class="alert-heading"><b>Request Sent.</b></span>
+                        <span>Our agent will call you in next 48 hrs of your timezone. A status mail will be sent to
+                            your mailer."
+                        </span>
+                    </div>
+                    <div id="image-map123"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resort Area Map render start for Walt Disney resort-->
+    <div id="imageModal121" class="modal fade right" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-lg modal-dialog modal-full-height modal-right" style="max-width:800px !important;" role="document">
+            <div class="modal-content">
+                <div class="modal-header p-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-1"><b>
+                                    <h5 class="modal-title w-100  modal-title-font pl-2 pr-2 pb-0" id="resortareamap121">
+                                    </h5>
+                                </b></div>
+                            <div class="col-md-3 col-sm-10">
+                                <a id="areainfobutton" href="#areaInfoModal" data-target="#areaInfoModal" data-toggle="modal" class="btn btn-primary btn-info btn-width">View Property Details
+                                    <i class="fas fa-home"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeImageModal121">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="resort-map-image">
+                    <!-- Resort Area Map render stop -->
+                    <div id="confirmSuccess121" class="alert alert-success" role="alert">
+                        <button type="button" class="close closeAlert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> </button>
+                        <span class="alert-heading"><b>Request Sent.</b></span>
+                        <span>Our agent will call you in next 48 hrs of your timezone. A status mail will be sent to
+                            your mailer."
+                        </span>
+                    </div>
+                    <div id="image-map121"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resort Area Map render start for Holiday Inn-->
+    <div id="imageModal122" class="modal fade right" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-lg modal-dialog modal-full-height modal-right" style="max-width:800px !important;" role="document">
+            <div class="modal-content">
+                <div class="modal-header p-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-1"><b>
+                                    <h5 class="modal-title w-100  modal-title-font pl-2 pr-2 pb-0" id="resortareamap122">
+                                    </h5>
+                                </b></div>
+                            <div class="col-md-3 col-sm-10">
+                                <a id="areainfobutton" href="#areaInfoModal" data-target="#areaInfoModal" data-toggle="modal" class="btn btn-primary btn-info btn-width">View Property Details
+                                    <i class="fas fa-home"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeImageModal122">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="resort-map-image">
+                    <!-- Resort Area Map render stop -->
+                    <div id="confirmSuccess122" class="alert alert-success" role="alert">
+                        <button type="button" class="close closeAlert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> </button>
+                        <span class="alert-heading"><b>Request Sent.</b></span>
+                        <span>Our agent will call you in next 48 hrs of your timezone. A status mail will be sent to
+                            your mailer."
+                        </span>
+                    </div>
+                    <div id="image-map122"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Images of rooms modal start -->
+    <div class="modal fade modalbackdrop" id="roomImages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">View Room</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="https://cf.bstatic.com/images/hotel/max1280x900/176/176113777.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://cf.bstatic.com/images/hotel/max1280x900/216/216924603.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <!--/.Slides-->
+                        <!--Controls-->
+                        <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <!--/.Controls-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-thumb" data-slide-to="1">
+                                <img src="assets/hotel_image1.jpg" width="60">
+                            </li>
+                            <li data-target="#carousel-thumb" data-slide-to="2">
+                                <img src="assets/hotel-image2.jpg" width="60">
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Images of rooms modal end -->
+
+    <!-- Book Restuarants Modal start-->
+
+    <div class="modal fade modalbackdrop" id="epcoteHotel" tabindex="-1" role="dialog" aria-labelledby="HotelLable" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modal-title w-100  modal-title-font" id="myModalLabel"></span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="epcoteHotelClose">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="border border-light p-2">
+
+                        <div class="text-center">
+                            <p class="h2 mb-2">Raise A Call Request</p>
+
+                            <p>Please provide below details. We will call you for further clarifiactions and booking finalizations.
+                            </p>
+
+                            <span class="skyblue">
+                                Thankyou For Choosing Us!!
+                            </span>
+                        </div>
+
+                        <input class="form-control mb-2" id="defaultSubscriptionFormPassword" type="text" placeholder="Full Name">
+
+                        <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-2" placeholder="E-mail">
+
+                        <select class="browser-default custom-select mb-2" id="select">
+                            <option value="" disabled="" selected="">Select country you are currently staying</option>
+                            <option value="1">USA</option>
+                            <option value="2">India</option>
+                            <option value="3">United Kingdom</option>
+                        </select>
+
+                        <input class="form-control mb-2" id="textInput" type="text" placeholder="Mobile No.">
+
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox1">
+                            <label class="custom-control-label" for="checkbox1">Avail Breakfast Service (everyday during
+                                your entire stay)</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox2">
+                            <label class="custom-control-label" for="checkbox2">Avail Lunch Service (everyday during your
+                                entire stay)</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox3">
+                            <label class="custom-control-label" for="checkbox3">Avail Dinner Service (everyday during
+                                your entire stay)</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-info btn-block" id="showConfirmation1">Request Call</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Book Restuarants Modal end-->
+
+    <!-- Book Hotels Modal start -->
+    <div class="modal fade modalbackdrop" id="bookHotel" tabindex="-1" role="dialog" aria-labelledby="HotelLable" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modal-title w-100  modal-title-font" id="myModalLabel"></span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="bookHotelClose">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="border border-light p-2">
+
+                        <div class="text-center">
+                            <p class="h2 mb-2">Raise A Call Request</p>
+
+                            <p>Please provide below details. We will call you for further clarifiactions and booking finalizations.
+                            </p>
+
+                            <span class="skyblue">
+                                Thankyou For Choosing Us!!
+                            </span>
+                        </div>
+
+                        <input class="form-control mb-2" id="defaultSubscriptionFormPassword1" type="text" placeholder="Full Name">
+
+                        <input type="email" id="defaultSubscriptionFormEmail1" class="form-control mb-2" placeholder="E-mail">
+
+                        <select class="browser-default custom-select mb-2" id="select1">
+                            <option value="" disabled="" selected="">Select country you are currently
+                                staying</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+
+                        <input class="form-control mb-2" id="textInput1" type="text" placeholder="Mobile No.">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info btn-block" id="showConfirmation2">Request Call</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Book Hotels Modal end -->
+
+    <!-- Resort Details start -->
+
+    <div class="modal fade right modalbackdrop" id="areaInfoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+        <!-- Change class .modal-sm to change the size of the modal -->
+        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title w-100" id="modalTitle">Resort Details At A Glance</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <!--Carousel Wrapper-->
+                            <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                                <!--Slides-->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="https://cf.bstatic.com/images/hotel/max1280x900/176/176113777.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://cf.bstatic.com/images/hotel/max1280x900/216/216924603.jpg" alt="Third slide">
+                                    </div>
+                                </div>
+                                <!--/.Slides-->
+                                <!--Controls-->
+                                <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                                <!--/.Controls-->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-thumb" data-slide-to="1">
+                                        <img src="assets/hotel_image1.jpg" width="60">
+                                    </li>
+                                    <li data-target="#carousel-thumb" data-slide-to="2">
+                                        <img src="assets/hotel-image2.jpg" width="60">
+                                    </li>
+                                </ol>
+                            </div>
+                            <!--/.Carousel Wrapper-->
+                        </div>
+                        <div class="col-lg-7">
+                            <span class="h4-responsive product-name">
+                                Experience new enchantment and classic favorites at <b><span
+                                        id="resortNameClicked"></span>,<span id="locationShow"></span></b>
+                            </span>
+                            <!--Accordion wrapper-->
+                            <div class="div-text">
+                                <br>
+                                <nav>
+                                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                        <a class="nav-item nav-link div-text active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Available Units</a>
+                                        <a class="nav-item nav-link div-text" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Property Info</a>
+                                        <a class="nav-item nav-link div-text" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Room Details</a>
+                                    </div>
+                                </nav>
+                                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                        <div class="col-sm-6 col-md-12 col-xs-4 no-side-padding-xs au-div-dimension no-focus">
+                                            <div class="grid-gap-left padding-zero panel panel-default unit-row no-focus">
+                                                <div class="panel-body padding-20 no-focus">
+
+                                                    <div class="padding-zero">
+                                                        <span class="" id="au"></span>
+                                                    </div>
+                                                    <div class="padding-zero au-checkin-date-section row no-focus" style="margin-top: 20px;">
+
+                                                        <div class="au-checkin-section col-sm-6 padding-left-0">
+                                                            <div class="padding-zero">
+                                                                <label for="checkInDate">Check-in Date:<span
+                                                                        class="sr-only">dd-mmm-yyyy</span></label>
+                                                                <div class="au-point-calendar col-md-12 col-sm-12 col-xs-12 padding-zero">
+                                                                    <input type="text" id="datepicker-12" placeholder="Select Check-In Date" readonly="" autocomplete="off" class="form-control padding-right-zero avlUnitsCheckInDate" onclick=placeholder="dd-mm-yyyy">
+                                                                    <i class="form-control-feedback glyphicon glyphicon-calendar"></i>
+
+                                                                    <input type="hidden" id="hiddenCheckInDate">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="au-checkout-section col-sm-6 padding-left-0">
+                                                            <div class="padding-zero">
+                                                                <label for="checkOutDate">Check-out Date:
+                                                                    <span class="sr-only">dd-mmm-yyyy</span></label>
+                                                                <div class="au-point-calendar col-md-12 col-sm-12 col-xs-12 padding-zero">
+                                                                    <input id="datepicker-13" type="text" autocomplete="off" placeholder="Select Check-Out Date" readonly="" class="form-control padding-right-zero avlUnitsCheckInDate" onclick=placeholder="dd-mm-yyyy">
+                                                                    <i class="form-control-feedback glyphicon glyphicon-calendar"></i>
+
+                                                                    <input type="hidden" id="hiddenCheckOutDate">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div id="dateErrorMsgDiv" class="col-sm-12 padding-zero"></div>
+                                                        <div id="auViewAvailabilityWrap" class="au-points-calendar-btn col-sm-6 padding-zero">
+                                                            <button type="button" class="btn btn-primary btn-info btn-width waves-effect waves-light"><b>CHECK
+                                                                    AVAILABILITY</b></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                                        <div class="col-sm-6 col-md-12 col-xs-4 no-side-padding-xs au-div-dimension no-focus">
+                                            <div class="padding-zero unit-resort-item-content no-focus">
+
+                                                <div class="padding-zero no-focus row">
+                                                    <!-- checkin checkout -->
+                                                    <div class="padding-zero col-sm-4">
+                                                        <span class="div-text padding-left-zero">
+                                                            Check-in and Check-out:
+                                                        </span>
+                                                    </div>
+                                                    <div class="padding-zero no-focus col-sm-4">
+                                                        <p class="pull-left padding-left-zero property-size" id="checkInTime"></p>
+                                                    </div>
+                                                    <div class="padding-zero no-focus col-sm-4">
+                                                        <p class="pull-left padding-left-zero property-size" id="checkOutTime"></p>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-4">
+                                                            <p class="pull-left padding-left-zero property-size" id="checkInDays"></p>
+                                                            <p class="pull-left padding-left-zero"></p>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <p class="pull-left padding-left-zero property-size" id="checkInExtra"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- accessibility  -->
+                                            <div class="padding-zero row">
+                                                <div class="padding-zero col-sm-4">
+                                                    <span class="div-text padding-left-zero"> Features:
+                                                    </span>
+                                                </div>
+                                                <div class="padding-zero col-sm-4">
+                                                    <p class="pull-left padding-left-zero property-size" id="features">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="padding-zero row">
+                                                <div class="padding-zero col-sm-4">
+                                                    <span class="div-text padding-left-zero">
+                                                        Additional Info:
+                                                    </span>
+                                                </div>
+                                                <div class="padding-zero col-sm-4">
+                                                    <p class="pull-left padding-left-zero property-size" id="addOn"></p>
+                                                </div>
+                                            </div>
+                                            <div class="padding-zero unit-resort-item no-focus">
+                                                <hr>
+                                                <span class="sectionHeader-Black">
+                                                    <b>Amenities</b>
+                                                </span>
+
+                                                <div class="padding-zero unit-resort-item-content no-focus">
+                                                    <!-- Amenities onsite -->
+                                                    <div class="padding-zero no-focus row">
+                                                        <div class="padding-zero col-sm-4">
+                                                            <span class="div-text padding-left-zero">
+                                                                On-site:
+                                                            </span>
+                                                        </div>
+                                                        <div class="padding-zero col-sm-4">
+                                                            <p class="pull-left padding-left-zero property-size" id="amenities1"></p>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <p class="pull-left padding-left-zero property-size" id="amenities2"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+
+                                                        <div class="col-sm-4">
+                                                            <p class="pull-left padding-left-zero property-size" id="amenities3"></p>
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <p class="pull-left padding-left-zero property-size" id="amenities4"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+
+                                                        <div class="col-sm-4">
+                                                            <p class="pull-left padding-left-zero property-size" id="amenities5"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="padding-zero unit-resort-item no-focus">
+                                                <hr>
+                                                <span class="sectionHeader-Black">
+                                                    <b>Services</b>
+                                                </span>
+                                                <div class="padding-zero unit-resort-item-content no-focus">
+                                                    <!-- Resort Services onsite -->
+                                                    <div class="padding-zero no-focus row">
+                                                        <div class="col-sm-4 col-xs-6 padding-zero">
+                                                            <span class="div-text padding-left-zero">
+                                                                On-site:
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-sm-4 col-xs-6 padding-zero no-focus">
+                                                            <p class="pull-left padding-left-zero property-size" id="services1"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                        <div>
+                                            <p class="pull-left col-sm-8 col-md-12 col-xs-9 padding-left-zero div-text" id="intro"></p>
+                                        </div>
+                                        <div>
+                                            <p class="pull-left col-sm-8 col-md-12 col-xs-9 padding-left-zero div-text" id="facilities"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-info btn-width waves-effect waves-light" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Resort Details end -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blacktransparent">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center pt-2">
+            <b>Virtual Interactive Image-Area-Map Based Resort Selection</b><br /> Hackathon <br />© 2020 Copyright: Team <b>FOUR Variables</b>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- script for map -->
+    <script src="scripts/mapmarkers.js"></script>
+
+    <!-- script for image  -->
+    <script src="scripts/reasort_area_map_image.js"></script>
+    <!-- script for booking -->
+    <script src="scripts/confirmation.js"></script>
+    <script src="scripts/calender.js"></script>
+    <script src="scripts/dropdown_filters.js"></script>
+    <script src="scripts/image_list.js"></script>
+    <script src="scripts/booking_modal.js"></script>
+</body>
+
+</html>

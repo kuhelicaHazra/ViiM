@@ -1,0 +1,1627 @@
+[{
+    "ID": "123",
+    "properties": {
+        "Name": "The Club Barbados Resort & Spa, Elite Island Resorts | Resort Marketing International",
+        "resortDetails": {
+            "location": "USA",
+            "au": "Please select a Check-In and Check-Out date to see available units at this resort.",
+            "checkInDetails": {
+                "checkInTime": "Check In Time: 14:00",
+                "checkOutTime": "Check Out Time: 10:00",
+                "checkInDays": "Weeks Resort check in days: Sunday , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday",
+                "checkInExtra": "Please advise the resort if you anticipate a late arrival."
+            },
+            "features": "Wheelchair Accessible",
+            "addOn": "Pets are permitted at the resort",
+            "amenities1": "Swimming pool",
+            "amenities2": "Sport Courts / Grounds",
+            "amenities3": "Game room",
+            "amenities4": "Spa Services : Massage, Body treatments, Facials, Nail Services",
+            "amenities5": "Onsite - Swimming pool - children's: Yes",
+            "services1": "Car Rental",
+            "roomDetails": {
+                "intro": "The resort features charming chalets and floating cottages. Most units are ideal for two people, although there are two units suitable for families of four. All units feature gracious, air conditioned interiors, and you may watch the sun rise or set on your private balcony overlooking the garden and the lake. You may even see fishermen taking out their nets early in the morning, or in the evening, dropping them for the next day's catch.",
+                "facilities": "Hotel Sleeps : 2 <br> Privacy : 2 <br> Kitchen : No <br> Bathroom : Full Furnishing <br> Televisin : Cable/Satelite <br> Kitchen Equipments : Coffee Maker, Refirgerator"
+            }
+        },
+        "desktopareas": [{
+                "marker": [-13.625, 40.65],
+                "icon": "restaurant",
+                "successTitle": "<b>Enid's Restaurant</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#epcoteHotel'>Book</button>",
+                "failureTitle": "<b>Enid's Restaurant</b><br><b class='text-warning'>Pre-bookings, not available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-19.475, 37],
+                "icon": "bar",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Rum Shop Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Rum Shop Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-23.9, 16.6],
+                "icon": "bar",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Beach Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Beach Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-30.875, 27.3],
+                "icon": "restaurant",
+                "successTitle": "<b>Sunset Restaurant & Bar</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#epcoteHotel'>Book</button>",
+                "failureTitle": "<b>Sunset Restaurant & Bar</b><br><b class='text-warning'>Pre-bookings, not available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-36.925, 42.85],
+                "icon": "pool",
+                "successTitle": "<b>Pool</b><br><b class='text-success'>Open for all resort visitors</b>",
+                "failureTitle": "<b>Pool</b><br><b class='text-success'>Open for all resort visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-42.125, 91.75],
+                "icon": "gym",
+                "successTitle": "<a href='#'>Sports & Fitness Center</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#'>Sports & Fitness Center</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-32.25, 93],
+                "icon": "piano",
+                "successTitle": "<a  >Piano Lounge</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a  >Piano Lounge</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-25.375, 84.5],
+                "icon": "desk",
+                "bounce": true,
+                "successTitle": "<a  >Front Desk Guest Services & Tours</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a  >Front Desk Guest Services & Tours</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-16.425, 78.3],
+                "icon": "luggage",
+                "bounce": true,
+                "successTitle": "<a  >Luggage Room</a>",
+                "failureTitle": "<a  >Luggage Room</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-13.5, 85.2],
+                "icon": "meeting",
+                "bounce": true,
+                "successTitle": "<a  >Administration Meeting & Private Fuctions</a>",
+                "failureTitle": "<a  >Administration Meeting & Private Fuctions</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-2.55, 81.325],
+                "icon": "tennis",
+                "bounce": true,
+                "successTitle": "<a  >Tennis Court</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a  >Tennis Court</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-10.875, 16.75],
+                "icon": "hotelna",
+                "bounce": true,
+                "successTitle": "<b>Moss View Hotel</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Moss View Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "no"
+            },
+            {
+                "marker": [-13.1, 30.9],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Raddison Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Raddison Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                    "roomNo": 1,
+                    "bounds": [
+                        [-10.625, 32.75],
+                        [-12.875, 36.875],
+                        [-14.375, 36]
+                    ],
+                    "available": "no",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                }]
+            },
+            {
+                "marker": [-16.8, 50],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>The Bristol Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>The Bristol Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                        "roomNo": 1,
+                        "bounds": [
+                            [-22.75, 52.5],
+                            [-21, 54],
+                            [-22.625, 58.375],
+                            [-24.875, 57.25]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 2,
+                        "bounds": [
+                            [-20.375, 53.5],
+                            [-18.5, 54.625],
+                            [-20.375, 59.625],
+                            [-22.625, 58.75]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 3,
+                        "bounds": [
+                            [-20.875, 42.5],
+                            [-16.125, 45.75],
+                            [-16.25, 47.25],
+                            [-22.375, 43.5]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 4,
+                        "bounds": [
+                            [-20.625, 42.375],
+                            [-21, 40.5],
+                            [-14.625, 44.75],
+                            [-16, 45.625]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    }
+                ]
+            },
+            {
+                "marker": [-18.875, 72.725],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Hotel Vitale</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Hotel Vitale</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                        "roomNo": 1,
+                        "bounds": [
+                            [-20.5, 61.5],
+                            [-18.625, 62.75],
+                            [-21.375, 69.25],
+                            [-23.5, 68.125]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 2,
+                        "bounds": [
+                            [-18.25, 63.375],
+                            [-16.375, 64.25],
+                            [-18.5, 70.125],
+                            [-21.125, 69.375]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 3,
+                        "bounds": [
+                            [-25.25, 71.25],
+                            [-24.125, 75.375],
+                            [-27.125, 82],
+                            [-29.375, 81]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 4,
+                        "bounds": [
+                            [-23.875, 75.625],
+                            [-21.375, 75.625],
+                            [-24.125, 81.75],
+                            [-26.375, 81.375]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    }
+                ]
+            },
+            {
+                "marker": [-35.875, 83],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Ritz-Carlton Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Ritz-Carlton Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                        "roomNo": 1,
+                        "bounds": [
+                            [-44.625, 78.25],
+                            [-41.5, 80.25],
+                            [-42.375, 82.75],
+                            [-45.75, 80.625]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 2,
+                        "bounds": [
+                            [-46.125, 81.25],
+                            [-42.5, 83.5],
+                            [-43.25, 85.75],
+                            [-46.875, 83.25]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 3,
+                        "bounds": [
+                            [-34, 86.125],
+                            [-35.125, 88.125],
+                            [-38.375, 86.125]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    }
+                ]
+            },
+            {
+                "marker": [-46.675, 66.675],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Residence Inn</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Residence Inn</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                        "roomNo": 1,
+                        "bounds": [
+                            [-52.75, 52],
+                            [-50, 58.5],
+                            [-51.625, 59.375],
+                            [-54.5, 53.25]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 2,
+                        "bounds": [
+                            [-54.875, 53.5],
+                            [-52.25, 59.625],
+                            [-54, 60.875],
+                            [-56.625, 54.625]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 3,
+                        "bounds": [
+                            [-50.875, 59],
+                            [-49.625, 61.5],
+                            [-54.875, 64.5],
+                            [-55.75, 62.5]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 4,
+                        "bounds": [
+                            [-45.625, 70.375],
+                            [-43.5, 76],
+                            [-46.125, 77.125],
+                            [-48.375, 72]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 5,
+                        "bounds": [
+                            [-49.75, 72],
+                            [-46.625, 77.5],
+                            [-49.125, 78.875],
+                            [-51.75, 73.125]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    }
+                ]
+            },
+            {
+                "marker": [-48.4, 36.8],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Crown Pastures Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Crown Pastures Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                        "roomNo": 1,
+                        "bounds": [
+                            [-48.875, 23.125],
+                            [-49.5, 29.5],
+                            [-51.875, 29.125],
+                            [-51.125, 23]
+                        ],
+                        "available": "no",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 2,
+                        "bounds": [
+                            [-51.875, 22.875],
+                            [-52.25, 29],
+                            [-54.675, 28.75],
+                            [-53.75, 22.75]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 3,
+                        "bounds": [
+                            [-49.125, 44.375],
+                            [-49.875, 50.625],
+                            [-52.125, 50.375],
+                            [-51.25, 44.375]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 4,
+                        "bounds": [
+                            [-52, 44.25],
+                            [-52.5, 50.375],
+                            [-54.5, 50.125],
+                            [-53.875, 44]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    }
+                ]
+            },
+            {
+                "marker": [-53.675, 19],
+                "icon": "hotel",
+                "successTitle": "<b>Zion Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Zion Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                        "roomNo": 1,
+                        "bounds": [
+                            [-49.5, 13.5],
+                            [-48.875, 16.125],
+                            [-51.5, 16.5],
+                            [-51.375, 14]
+                        ],
+                        "available": "no",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 2,
+                        "bounds": [
+                            [-49.25, 16.75],
+                            [-48.75, 19.25],
+                            [-51, 19.75],
+                            [-51, 17]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 3,
+                        "bounds": [
+                            [-53.125, 14.75],
+                            [-53, 16.5],
+                            [-57.125, 15.25]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 4,
+                        "bounds": [
+                            [-59.75, 16.625],
+                            [-59.75, 19.375],
+                            [-62.75, 19.75],
+                            [-63, 17.25]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 5,
+                        "bounds": [
+                            [-59.5, 20],
+                            [-59.375, 22.625],
+                            [-62.625, 23.125],
+                            [-62.5, 20.125]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 6,
+                        "bounds": [
+                            [-64, 18.125],
+                            [-64, 20.75],
+                            [-66.375, 21.125],
+                            [-66.75, 18.75]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 7,
+                        "bounds": [
+                            [-64, 21.25],
+                            [-63.375, 24.125],
+                            [-66.125, 24.5],
+                            [-66.625, 21.875]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    }
+                ]
+            }
+        ],
+        "mobileareas": [{
+                "marker": [-7.975, 7.3],
+                "icon": "smallhotelna",
+                "successTitle": "<b>Moss View Hotel</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Moss View Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "no"
+            },
+            {
+                "marker": [-10, 13.2],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Raddison Hotel</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Raddison Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                    "roomNo": 1,
+                    "bounds": [
+                        [-6.390625, 15.125],
+                        [-6.882812, 19.125],
+                        [-8.257812, 16.4375]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                }]
+            },
+            {
+                "marker": [-12.8, 21.575],
+                "icon": "smallhotel",
+                "successTitle": "<b>The Bristol Hotel</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>The Bristol Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                    "roomNo": 1,
+                    "bounds": [
+                        [-16.640625, 25.25],
+                        [-15.390625, 25.625],
+                        [-15.765625, 23.625]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                }
+            ]
+            },
+            {
+                "marker": [-14.3, 31.3],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Hotel Vitale</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Hotel Vitale</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                    "roomNo": 1,
+                    "bounds": [
+                        [-14.390625, 27.25],
+                        [-15.515625, 26.75],
+                        [-17.390625, 29]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                }
+            ]
+            },
+            {
+                "marker": [-26.8, 35.7],
+                "icon": "smallhotel",
+                "successTitle": "<b>Ritz-Carlton Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Ritz-Carlton Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                    "roomNo": 1,
+                    "bounds": [
+                        [-33.265625, 34.125],
+                        [-31.515625, 34.75],
+                        [-31.640625, 35.5],
+                        [-33.890625, 34.875]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                },
+                {
+                    "roomNo": 2,
+                    "bounds": [
+                        [-33.890625, 35.125],
+                        [-31.765625, 35.875],
+                        [-34.640625, 35.875]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                }
+            ]
+            },
+            {
+                "marker": [-35, 28.8],
+                "icon": "smallhotel",
+                "successTitle": "<b>Residence Inn</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Residence Inn</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                    "roomNo": 1,
+                    "bounds": [
+                        [-39.015625, 22.5],
+                        [-37.390625, 25.125],
+                        [-38.765625, 25.375],
+                        [-40.515625, 22.875]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                },
+                {
+                    "roomNo": 2,
+                    "bounds": [
+                        [-41.015625, 23.25],
+                        [-39.265625, 25.625],
+                        [-40.140625, 26.25],
+                        [-42.015625, 23.5]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                },
+                {
+                    "roomNo": 3,
+                    "bounds": [
+                        [-38.015625, 25.625],
+                        [-40.640625, 27.75],
+                        [-41.515625, 26.875]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                },
+                {
+                    "roomNo": 4,
+                    "bounds": [
+                        [-38.015625, 31.75],
+                        [-34.765625, 33.5],
+                        [-36.765625, 34]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                }
+            ]
+            },
+            {
+                "marker": [-36, 15.86],
+                "icon": "smallhotel",
+                "successTitle": "<b>Crown Pastures Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Crown Pastures Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [{
+                    "roomNo": 1,
+                    "bounds": [
+                        [-36.390625, 9.75],
+                        [-36.515625, 12.5],
+                        [-38.390625, 12.5]
+                    ],
+                    "available": "no",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                },
+                {
+                    "roomNo": 2,
+                    "bounds": [
+                        [-36.640625, 19.375],
+                        [-37.015625, 21.75],
+                        [-38.765625, 21.75],
+                        [-38.390625, 19.25]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                },
+                {
+                    "roomNo": 3,
+                    "bounds": [
+                        [-38.890625, 19.125],
+                        [-39.015625, 21.625],
+                        [-40.390625, 21.375],
+                        [-40.140625, 19.125]
+                    ],
+                    "available": "yes",
+                    "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                    "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                }
+            ]
+            },
+            {
+                "marker": [-39.9, 8.2],
+                "icon": "smallhotel",
+                "successTitle": "<b>Zion Hotel</b><br><b class='text-success'>Please select rooms</b>",
+                "failureTitle": "<b>Zion Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes",
+                "rooms": [
+                    {
+                        "roomNo": 1,
+                        "bounds": [
+                            [-44.515625, 7.375],
+                            [-44.390625, 8],
+                            [-46.390625, 8.375],
+                            [-46.640625, 7.5]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 2,
+                        "bounds": [
+                            [-44.890625, 8.875],
+                            [-44.765625, 9.625],
+                            [-46.265625, 9.875],
+                            [-46.515625, 8.875]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 3,
+                        "bounds": [
+                            [-48.015625, 8.125],
+                            [-47.765625, 9],
+                            [-49.390625, 9.125],
+                            [-49.765625, 8.125]
+                        ],
+                        "available": "yes",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    },
+                    {
+                        "roomNo": 4,
+                        "bounds": [
+                            [-47.640625, 9.375],
+                            [-47.765625, 10.375],
+                            [-49.015625, 10.375],
+                            [-49.390625, 9.5]
+                        ],
+                        "available": "no",
+                        "successPopup": "<button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                        "failurePopup": "<b class='text-danger'>Sorry, this room is already booked.</b>"
+                    }
+                ]
+            },
+            {
+                "marker": [-22.9875, 12],
+                "icon": "smallrestaurant",
+                "bounce": true,
+                "successTitle": "<b>Sunset Restaurant & Bar</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#epcoteHotel'>Book</button>",
+                "failureTitle": "<b>Sunset Restaurant & Bar</b><br><b class='text-warning'>Pre-bookings, not available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-14.225, 15.9],
+                "icon": "smallbar",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Rum Shop Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Rum Shop Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-10.25, 17.5],
+                "icon": "smallrestaurant",
+                "bounce": true,
+                "successTitle": "<b>Enid's Restaurant</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#epcoteHotel'>Book</button>",
+                "failureTitle": "<b>Enid's Restaurant</b><br><b class='text-warning'>Pre-bookings, not available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-18.2, 7.1325],
+                "icon": "smallbar",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Beach Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Beach Bar</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-24.275, 40.0625],
+                "icon": "smallpiano",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Piano Lounge</a>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Piano Lounge</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-19, 36.5625],
+                "icon": "smalldesk",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Front Desk Guest Services & Tours</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Front Desk Guest Services & Tours</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-12.2125, 33.6],
+                "icon": "smallluggage",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Luggage Room</a>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Luggage Room</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-9.95, 36.7],
+                "icon": "smallmeeting",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Administration Meeting & Private Fuctions</a>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Administration Meeting & Private Fuctions</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-31.2, 39.5325],
+                "icon": "smallgym",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Sports & Fitness Center</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Sports & Fitness Center</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-1.5, 34.2],
+                "icon": "smalltennis",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Tennis Court</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Tennis Court</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-27.6875, 18.5],
+                "icon": "smallpool",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Pool</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Pool</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            }
+        ]
+    }
+},
+{
+    "ID": "121",
+    "properties": {
+        "Name": "Walt Disney World Resort",
+        "resortDetails": {
+            "location": "USA",
+            "au": "Please select a Check-In and Check-Out date to see available units at this resort.",
+            "checkInDetails": {
+                "checkInTime": "Check In Time: 14:00",
+                "checkOutTime": "Check Out Time: 10:00",
+                "checkInDays": "Weeks Resort check in days: Sunday , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday",
+                "checkInExtra": "Please advise the resort if you anticipate a late arrival."
+            },
+            "features": "Wheelchair Accessible",
+            "addOn": "Pets are not permitted at the resort",
+            "amenities1": "Swimming pool",
+            "amenities2": "Sport Courts / Grounds",
+            "amenities3": "Game room",
+            "amenities4": "Spa Services : Massage, Body treatments, Facials, Nail Services",
+            "amenities5": "Onsite - Swimming pool - children's: Yes",
+            "services1": "Car Rental",
+            "roomDetails": {
+                "intro": "The resort features charming chalets and floating cottages. Most units are ideal for two people, although there are two units suitable for families of four. All units feature gracious, air conditioned interiors, and you may watch the sun rise or set on your private balcony overlooking the garden and the lake. You may even see fishermen taking out their nets early in the morning, or in the evening, dropping them for the next day's catch.",
+                "facilities": "Hotel Sleeps : 2 <br> Privacy : 2 <br> Kitchen : No <br> Bathroom : Full Furnishing <br> Televisin : Cable/Satelite <br> Kitchen Equipments : Coffee Maker, Refirgerator"
+            }
+        },
+        "desktopareas": [{
+                "marker": [-13.15, 40.25],
+                "icon": "park",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Magic Kingdom Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Magic Kingdom Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-35.625, 20.5],
+                "icon": "park",
+                "bounce": true,
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney Animal Kingdom Theme Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney Animal Kingdom Theme Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-40.575, 44.75],
+                "icon": "studio",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Hollywood Studio</a>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Hollywood Studio</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-44.35, 33.5],
+                "icon": "park",
+                "bounce": true,
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney's Bizzard Beach Water Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney's Bizzard Beach Water Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-52.5, 62.125],
+                "icon": "park",
+                "bounce": true,
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney's Typhoon Lagoon Water Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney's Typhoon Lagoon Water Park</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-42.25, 78.5],
+                "icon": "spring",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney's Spring Area</a>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney's Spring Area</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-50.25, 36.5],
+                "icon": "pitch",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Sports Complex</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Sports Complex</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-29.375, 57.75],
+                "icon": "hotelna",
+                "successTitle": "<b>Epcote Villa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Epcote Villa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "no"
+            },
+            {
+                "marker": [-21.375, 22.125],
+                "icon": "golf",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Magnelia Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Magnelia Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-25.375, 24.125],
+                "icon": "golf",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Palm Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Palm Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-18.5, 33.45],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Grand Floridian Resort & Spa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Grand Floridian Resort & Spa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-24.375, 39.95],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Palynesian Villas & Bunglow</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Palynesian Villas & Bunglow</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-30, 45],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Yatch Club Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Yatch Club Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-32.5, 37.85],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>World Dolphie Hotel</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>World Dolphie Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-48, 23.25],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>All Star Sport's Resort & Spa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>All Star Sport's Resort & Spa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-54, 49.375],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Art of Animation Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Art of Animation Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-46.25, 53.825],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Carribean Beach Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Carribean Beach Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-43.625, 65.5],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Old Key West Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Old Key West Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-37.625, 76.875],
+                "icon": "golf",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Vista Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Vista Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-25.375, 59.125],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Disney's Wilderness Lodge</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Disney's Wilderness Lodge</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-13.25, 67],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Bay Lake Water</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Bay Lake Water</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-32, 70.625],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Riverside Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Riverside Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-38, 90.525],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Western Lake Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Western Lake Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-42.625, 93.125],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Holiday Inn</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Holiday Inn</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-45, 73.25],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Spring's Resort & Spa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Spring's Resort & Spa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-38.375, 8.5],
+                "icon": "marker",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Kidani's Village</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Kidani's Village</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            }
+        ],
+        "mobileareas": [{
+                "marker": [-6.575, 17.5],
+                "icon": "smallpark",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Magic Kingdom Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Magic Kingdom Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-24.375, 9.5],
+                "icon": "smallpark",
+                "bounce": true,
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney Animal Kingdom Theme Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney Animal Kingdom Theme Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-30.125, 19.75],
+                "icon": "smallstudio",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Hollywood Studio</a>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Hollywood Studio</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-30.75, 14.25],
+                "icon": "smallpark",
+                "bounce": true,
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney's Bizzard Beach Water Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney's Bizzard Beach Water Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-37.5, 26.875],
+                "icon": "smallpark",
+                "bounce": true,
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney's Typhoon Lagoon Water Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney's Typhoon Lagoon Water Park</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-30.75, 34.125],
+                "icon": "smallspring",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Disney's Spring Area</a>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Disney's Spring Area</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-37.125, 15.375],
+                "icon": "smallpitch",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Sports Complex</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Sports Complex</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-21.375, 25.2],
+                "icon": "smallhotelna",
+                "successTitle": "<b>Epcote Villa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Epcote Villa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "no"
+            },
+            {
+                "marker": [-15.5, 9.5],
+                "icon": "smallgolf",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Magnelia Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Magnelia Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-19, 10.25],
+                "icon": "smallgolf",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Palm Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Palm Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-15, 14.75],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Grand Floridian Resort & Spa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Grand Floridian Resort & Spa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-18.375, 17.5],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Palynesian Villas & Bunglow</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Palynesian Villas & Bunglow</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-22.3125, 19.375],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Yatch Club Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Yatch Club Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-24.75, 16.5],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>World Dolphie Hotel</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>World Dolphie Hotel</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-36.3, 9.8],
+                "icon": "smallhotel",
+                "successTitle": "<b>All Star Sport's Resort & Spa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>All Star Sport's Resort & Spa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-40.5, 22.125],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Art of Animation Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Art of Animation Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-33.125, 23.825],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Carribean Beach Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Carribean Beach Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-31.9, 27.875],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Old Key West Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Old Key West Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-27.625, 33.875],
+                "icon": "smallgolf",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Vista Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Vista Golf Course</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-18.85, 26.125],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Disney's Wilderness Lodge</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Disney's Wilderness Lodge</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-10, 29],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Bay Lake Water</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Bay Lake Water</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-24, 30.625],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Riverside Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Riverside Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-28.2, 39.5],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Western Lake Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Western Lake Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-32.625, 40.125],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Holiday Inn</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Holiday Inn</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-33.12, 31.45],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<b>Spring's Resort & Spa</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Spring's Resort & Spa</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-29.375, 3.5],
+                "icon": "smallhotel",
+                "bounce": true,
+                "successTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Kidani's Village</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "failureTitle": "<a class='areainfomodal' data-target='' data-toggle='modal'>Kidani's Village</a><br><b class='text-success'>Pre-booking not required, Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            }
+        ]
+    }
+},
+{
+    "ID": "122",
+    "properties": {
+        "Name": "The Holiday Inn",
+        "resortDetails": {
+            "location": "Tokyo",
+            "au": "Please select a Check-In and Check-Out date to see available units at this resort.",
+            "checkInDetails": {
+                "checkInTime": "Check In Time: 14:00",
+                "checkOutTime": "Check Out Time: 10:00",
+                "checkInDays": "Weeks Resort check in days: Sunday , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday",
+                "checkInExtra": "Please advise the resort if you anticipate a late arrival."
+            },
+            "features": "Wheelchair Accessible",
+            "addOn": "Pets are not permitted at the resort",
+            "amenities1": "Swimming pool",
+            "amenities2": "Sport Courts / Grounds",
+            "amenities3": "Game room",
+            "amenities4": "Spa Services : Massage, Body treatments, Facials, Nail Services",
+            "amenities5": "Onsite - Swimming pool - children's: Yes",
+            "services1": "Car Rental",
+            "roomDetails": {
+                "intro": "The resort features charming chalets and floating cottages. Most units are ideal for two people, although there are two units suitable for families of four. All units feature gracious, air conditioned interiors, and you may watch the sun rise or set on your private balcony overlooking the garden and the lake. You may even see fishermen taking out their nets early in the morning, or in the evening, dropping them for the next day's catch.",
+                "facilities": "Hotel Sleeps : 2 <br> Privacy : 2 <br> Kitchen : No <br> Bathroom : Full Furnishing <br> Televisin : Cable/Satelite <br> Kitchen Equipments : Coffee Maker, Refirgerator"
+            }
+        },
+        "desktopareas": [{
+                "marker": [-18.9648, 62.25],
+                "icon": "hotel",
+                "successTitle": "<b>Red Velvet Inn</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Red Velvet Inn</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-9.625, 87.875],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>The Westin</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>The Westin</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-31.835, 74.75],
+                "icon": "hotel",
+                "successTitle": "<b>Sun City Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Sun City Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-48.875, 23.5],
+                "icon": "hotel",
+                "bounce": true,
+                "successTitle": "<b>Eco Adventure Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Eco Adventure Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-29.25, 49.5],
+                "icon": "hotel",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Lake Land Country Club</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Lake Land Country Club</a><br><b class='text-success'>Open, Onsite-bookings Available</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-42.21, 58.375],
+                "icon": "hotel",
+                "successTitle": "<b>The Palm Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>The Palm Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-52.71, 42.375],
+                "icon": "hotel",
+                "successTitle": "<b>The Oberoi</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>The Oberoi</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-19.68, 8.6],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area G</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area G</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-15.46, 18.8],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area D</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area D</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-19.8, 42.27],
+                "icon": "pool",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-27, 27.55],
+                "icon": "hotelna",
+                "successTitle": "<b>Hotel Paradise</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Hotel Paradise</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "no"
+            },
+            {
+                "marker": [-36.33, 32],
+                "icon": "hotel",
+                "successTitle": "<b>Sonar Bangla</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Sonar Bangla</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-34.68, 36.8],
+                "icon": "hotel",
+                "successTitle": "<b>Hotel Deluxe</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Hotel Deluxe</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-37.18, 42.8],
+                "icon": "parking",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Parking Area</a>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Parking Area</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-46.33, 3.5],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area M</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area M</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-46.98, 37.12],
+                "icon": "pool",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-58.58, 28.625],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area O</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area O</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-45.8, 65.7],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area L</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area L</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-26.21, 84.875],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area F</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area F</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-4.2, 93.125],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area C</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area C</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-5.46, 70.52],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area B</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area B</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-2.58, 61.125],
+                "icon": "forest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area A</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area A</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            }
+        ],
+        "mobileareas": [{
+                "marker": [-21.16, 21.675],
+                "icon": "smallhotel",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Lake Land Country Club</a><br><b class='text-success'>Open, Onsite-booking availaable</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Lake Land Country Club</a><br><b class='text-success'>Open, Onsite-booking availaable</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-13.91, 27.0675],
+                "icon": "smallhotel",
+                "successTitle": "<b>Red Velvet Inn</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Red Velvet Inn</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-6.31, 38.675],
+                "icon": "smallhotel",
+                "successTitle": "<b>The Westin</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>The Westin</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-22.85, 32.5675],
+                "icon": "smallhotel",
+                "successTitle": "<b>Sun City Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Sun City Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-31.16, 25.675],
+                "icon": "smallhotel",
+                "successTitle": "<b>The Palm Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>The Palm Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-35.48, 10],
+                "icon": "smallhotel",
+                "successTitle": "<b>Eco Adventure Resort</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Eco Adventure Resort</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-39.48, 18.2],
+                "icon": "smallhotel",
+                "successTitle": "<b>The Oberoi</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>The Oberoi</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-14.91, 3.68],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area G</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area G</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-11.48, 8.2],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area D</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area D</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-14.83, 18.5],
+                "icon": "smallpool",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-19.83, 12.12],
+                "icon": "smallhotelna",
+                "successTitle": "<b>Hotel Paradise</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Hotel Paradise</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "no"
+            },
+            {
+                "marker": [-27.08, 14.25],
+                "icon": "smallhotel",
+                "successTitle": "<b>Sonar Bangla</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Sonar Bangla</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-26.21, 16.2],
+                "icon": "smallhotel",
+                "successTitle": "<b>Hotel Deluxe</b><br><button type='button' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#bookHotel'>Book</button>",
+                "failureTitle": "<b>Hotel Deluxe</b><br><b class='text-warning'>Sorry, Online Booking is closed</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-27.71, 18.75],
+                "icon": "smallparking",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Parking Area</a>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Parking Area</a>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-34.46, 1.5],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area M</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area M</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-34.73, 16.075],
+                "icon": "smallpool",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Pool Area</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-43.58, 12.625],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area O</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area O</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-34.21, 27.875],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area L</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area L</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-19.33, 36.525],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area F</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area F</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-3.2, 40.1],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area C</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area C</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-4.33, 30.75],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area B</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area B</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            },
+            {
+                "marker": [-2.33, 26.475],
+                "icon": "smallforest",
+                "successTitle": "<a href='#' data-toggle='tooltip'>Forest Area A</a><br><b class='text-success'>Open for all Visitors</b>",
+                "failureTitle": "<a href='#' data-toggle='tooltip'>Forest Area A</a><br><b class='text-success'>Open for all Visitors</b>",
+                "isBookingAvailable": "yes"
+            }
+        ]
+    }
+}
+]

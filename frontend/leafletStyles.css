@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+html,
+body,
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+#areainfobutton {
+    width: 400px;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    opacity: 0.8;
+    background: black;
+    color: #333;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-popup-content {
+    color: white;
+}
+
+.blinking {
+    opacity: 1;
+    animation: fade 1s infinite alternate;
+}
+
+@keyframes fade {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.modal-full-height {
+    height: unset !important;
+}
+
+.modal-body {
+    width: 100% !important;
+}
+
+#image-map {
+    margin: auto;
+}
+
+#resort-map-image {
+    padding: 0px;
+}
+
+.btn-orange {
+    background-color: #eaa023 !important;
+}
+
+.btn-orange:hover,
+.btn-orange:active {
+    background-color: #e05f0bf7 !important;
+}
+
+.black {
+    background-color: #1b1718 !important;
+}
+
+.modalbackdrop {
+    background-color: #656160c7;
+}
+
+.skyblue {
+    color: #0691d4;
+}
+
+.skybluebackground {
+    background-color: #0691d4 !important;
+    color: white !important;
+}
+
+.form-control-feedback {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.ui-widget select {
+    background-color: #ffd090;
+}
+
+.au-point-calendar {
+    padding-left: 0px !important;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.blacktransparent {
+    background-color: #000000b0 !important;
+}
+
+.leaflet-rrose-content-wrapper,
+.leaflet-rrose-tip {
+    background: #170202;
+}
+
+.leaflet-rrose-content-wrapper {
+    text-align: center;
+    color: white;
+}

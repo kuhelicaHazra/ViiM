@@ -1,0 +1,12 @@
+.force-scroll {
+    overflow-y: scroll;
+    height: 200px;
+}
+.textFont{
+    font-family: Andale Mono, monospace;
+    font-size: x-large;
+}
+.textButton{
+    font-family: Andale Mono, monospace;
+    font-size: medium;
+}

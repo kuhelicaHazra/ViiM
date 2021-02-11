@@ -1,0 +1,83 @@
+ {
+     "type": "FeatureCollection",
+     "features": [{
+             "type": "Feature",
+             "properties": {
+                 "title": "The Club Barbados Resort & Spa, Elite Island Resorts | Resort Marketing  International",
+                 "maparea": "assets/club.jpg",
+                 "marker-color": "white",
+                 "zoom": 7,
+                 "ID": "123",
+                 "amenities": ["Fishing", "Ping Pong", "Golf - miniature", "Public Pool", "Family Entertainment/Attractions", "Conference Halls/Meeting rooms/private Functons"],
+                 "OnsiteFacilities": ["Swimming Pool", "Sauna", "Fitness center", "Medical Facilities", "Restuarant/Dining", "Holiday Homes", "Hotels", "Beach Area", "Bar", "Piano launge"],
+                 "desktop": {
+                     "width": "800",
+                     "height": "540"
+                 },
+                 "mobile": {
+                     "width": "345",
+                     "height": "400"
+                 }
+             },
+             "geometry": {
+                 "type": "Point",
+                 "coordinates": [-117.918976,
+                     33.812511
+                 ]
+             }
+         },
+         {
+             "type": "Feature",
+             "properties": {
+                 "title": "Walt Disney World Resort",
+                 "maparea": "assets/map-image.jpg",
+                 "marker-color": "white",
+                 "zoom": 7,
+                 "ID": "121",
+                 "amenities": ["Ping Pong", "Water rides", "childrens'/adults rides", "Family Entertainment/Attractions"],
+                 "OnsiteFacilities": ["Swimming Pool", "Sauna", "Fitness center", "Medical Facilities", "Restuarant/Dining", "Holiday Homes", "Hotels"],
+                 "desktop": {
+                     "width": "800",
+                     "height": "540"
+                 },
+                 "mobile": {
+                     "width": "345",
+                     "height": "400"
+                 }
+             },
+             "geometry": {
+                 "type": "Point",
+                 "coordinates": [-81.563808,
+                     28.385071
+                 ]
+             }
+         },
+         {
+             "type": "Feature",
+             "properties": {
+                 "title": "The Holiday Villa",
+                 "maparea": "assets/block.jpg",
+                 "marker-color": "white",
+                 "zoom": 7,
+                 "ID": "122",
+                 "amenities": ["Fishing", "Ping Pong", "Golf - miniature", "Water rides", "Family Entertainment/Attractions"],
+                 "OnsiteFacilities": ["Swimming Pool", "Fitness center", "Medical Facilities", "Restuarant/Dining", "Holiday Homes", "Hotels"],
+                 "desktop": {
+                     "width": "800",
+                     "height": "540"
+                 },
+                 "mobile": {
+                     "width": "345",
+                     "height": "400"
+                 }
+             },
+             "geometry": {
+                 "type": "Point",
+                 "coordinates": [
+                     139.876986,
+                     35.636511
+                 ]
+             }
+         }
+     ]
+ }
